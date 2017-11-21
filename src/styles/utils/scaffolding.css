@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:hover,
+a:visited {
+  color: inherit;
+  text-decoration: underline;
+}
+
+strong {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.button,
+button {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+@media (--mobile) {
+  .desktop-only {
+    display: none;
+  }
+}
+
+@media (--desktop) {
+  .mobile-only {
+    display: none;
+  }
+}

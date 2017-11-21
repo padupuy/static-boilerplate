@@ -1,0 +1,28 @@
+node_modules
+npm-debug.log
+
+# Eclipse
+/.metadata
+/.settings
+/.project
+/.buildpath
+/.classpath
+
+# Sublime
+/.sublime-project
+/.sublime-workspace
+
+# Netbeans
+/nbproject
+
+# IntelliJ
+/.idea
+*.iml
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+dest/*

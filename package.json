@@ -1,0 +1,65 @@
+{
+  "name": "static-boilerplate",
+  "version": "1.0.0",
+  "description": "Cet outil est conçu pour faciliter la création de sites web simples grâce au confort des outils modernes.",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-eslint": "8.0.2",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-preset-env": "1.6.1",
+    "babel-register": "6.26.0",
+    "browser-sync": "2.18.13",
+    "cross-env": "5.1.1",
+    "cssnano": "3.10.0",
+    "del": "3.0.0",
+    "eslint": "4.11.0",
+    "eslint-config-unobtrusive": "1.1.0",
+    "eslint-plugin-import": "2.8.0",
+    "gulp": "3.9.1",
+    "gulp-data": "1.2.1",
+    "gulp-htmlmin": "3.0.0",
+    "gulp-if": "2.0.2",
+    "gulp-notify": "3.0.0",
+    "gulp-nunjucks-render": "2.2.1",
+    "gulp-postcss": "7.0.0",
+    "gulp-sourcemaps": "2.6.1",
+    "postcss-cssnext": "3.0.2",
+    "postcss-import": "11.0.0",
+    "postcss-object-fit-images": "1.1.2",
+    "postcss-reporter": "5.0.0",
+    "prettier": "1.8.2",
+    "require-dir": "0.3.2",
+    "rollup": "0.51.7",
+    "rollup-plugin-babel": "3.0.2",
+    "rollup-plugin-commonjs": "8.2.6",
+    "rollup-plugin-eslint": "4.0.0",
+    "rollup-plugin-node-resolve": "3.0.0",
+    "rollup-plugin-uglify": "2.0.1",
+    "run-sequence": "2.2.0",
+    "stylelint": "8.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp",
+    "build": "cross-env NODE_ENV=production gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/padupuy/static-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/padupuy/static-boilerplate/issues"
+  },
+  "homepage": "https://github.com/padupuy/static-boilerplate#readme",
+  "dependencies": {
+    "babel-polyfill": "6.26.0",
+    "matchmedia-polyfill": "0.3.0",
+    "nodelist-foreach": "1.0.1",
+    "normalize.css": "7.0.0",
+    "object-fit-images": "3.2.3",
+    "picturefill": "3.0.2"
+  }
+}

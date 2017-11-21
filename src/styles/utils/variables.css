@@ -1,0 +1,19 @@
+:root {
+  --font: Tahoma, Verdana, Segoe, sans-serif;
+
+  --gutter: 2rem;
+
+  --white: #fff;
+  --black: #111;
+
+  --primary: #848587;
+  --primaryLight: #d9d9d9;
+  --primaryLighter: white;
+  --primaryDark: #111;
+
+  @custom-media --desktop only screen and (min-width: 769px); /*768 + 1px*/
+  @custom-media --desktop-xl only screen and (min-width: 1281px);
+  @custom-media --tablet only screen and (max-width: 991px);
+  @custom-media --mobile only screen and (max-width: 767px);
+  @custom-media --small-mobile only screen and (max-device-height: 568px);
+}
